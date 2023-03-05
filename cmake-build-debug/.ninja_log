@@ -1,0 +1,4 @@
+# ninja log v5
+0	1208	1678045784788814748	CMakeFiles/HashMap.dir/main.cpp.o	5ae507b00284461f
+980	1046	1678045797705051715	HashMap	a41ea6fd6e19ba15
+0	980	1678045797637050475	CMakeFiles/HashMap.dir/unit-test.cpp.o	e37c59c6a7dd102c
