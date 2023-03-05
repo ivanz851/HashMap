@@ -55,6 +55,12 @@ build CMakeFiles/main.cpp.dir/unit-test.cpp.o: CXX_COMPILER__main.2ecpp_Debug /h
   OBJECT_DIR = CMakeFiles/main.cpp.dir
   OBJECT_FILE_DIR = CMakeFiles/main.cpp.dir
 
+build CMakeFiles/main.cpp.dir/main.cpp.o: CXX_COMPILER__main.2ecpp_Debug /home/ivanz/user/HashMap/main.cpp || cmake_object_order_depends_target_main.cpp
+  DEP_FILE = CMakeFiles/main.cpp.dir/main.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/main.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.cpp.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target main.cpp
@@ -63,7 +69,7 @@ build CMakeFiles/main.cpp.dir/unit-test.cpp.o: CXX_COMPILER__main.2ecpp_Debug /h
 #############################################
 # Link the executable main.cpp
 
-build main.cpp: CXX_EXECUTABLE_LINKER__main.2ecpp_Debug CMakeFiles/main.cpp.dir/unit-test.cpp.o
+build main.cpp: CXX_EXECUTABLE_LINKER__main.2ecpp_Debug CMakeFiles/main.cpp.dir/unit-test.cpp.o CMakeFiles/main.cpp.dir/main.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/main.cpp.dir
   POST_BUILD = :
